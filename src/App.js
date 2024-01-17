@@ -12,12 +12,7 @@ function App() {
     <div className="App">
      <NavBar/>
       <div className='content'>
-        <h1>{title}</h1>
-        <p>Liked {likes} times</p>
-        <p>{110}</p>
-        <p>{"Hello"}</p>
-        <p>{[1, 2, 3]}</p>
-        <p>{Math.random()}</p>
+     <Home/>
         <a href={link}>Google site</a>
       </div>
     </div>
